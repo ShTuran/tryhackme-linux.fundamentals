@@ -52,10 +52,6 @@
 
 # Now if I wanted to add "tryhackme" to this file named "passwords" but also keep "passwords123", what would my command be
 
-echo tryhackme >> passwords
+`echo tryhackme >> passwords`
 
 `>>` append it!
-
-
-
-
