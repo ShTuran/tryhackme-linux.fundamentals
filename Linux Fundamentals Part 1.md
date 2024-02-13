@@ -11,6 +11,7 @@
 
 ![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/f73ef002-9f7e-43cd-bbce-f47ffd43a584)
 
+I used single, double quotes and without them:)
 
 # What is the username of who you're logged in as on your deployed Linux machine?
 
