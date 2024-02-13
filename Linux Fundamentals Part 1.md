@@ -36,16 +36,25 @@
 
 # Use grep on "access.log" to find the flag that has a prefix of "THM". What is the flag?
 
+- 'grep' command will search any text pattern provided by the user.
+
+  `grep "THM" access.log` will reveal the flag. -> THM{******}
 
 # If we wanted to run a command in the background, what operator would we want to use? 
 
+`&`  will make process to run in the background, usually using this sign when assuming that command result relatively will be late.
 
 # If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be?
 
+`echo password123 > passwords`
+
+ `>` will overwrite it!
 
 # Now if I wanted to add "tryhackme" to this file named "passwords" but also keep "passwords123", what would my command be
 
+echo tryhackme >> passwords
 
+`>>` append it!
 
 
 
