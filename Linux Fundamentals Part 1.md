@@ -44,7 +44,7 @@ I used single, double quotes and without them :)
 
 `cat 'note.txt'`  -> "Hello World!"
 
-![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/8a14c0cb-f854-45b3-9028-4969ab93ec70)
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/48908f8f-b20d-4728-b1d5-98c23e1efa29)
 
 
 # Use the cd command to navigate to this file and find out the new current working directory. What is the path?
