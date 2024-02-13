@@ -52,6 +52,8 @@ I used single, double quotes and without them :)
 - After navigating to file location (use above knowledge),
 - To learn your absolute directory type `pwd` -> print working directory -> will output this: '/home/tryhackme/folder4'
 
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/c6ab2af8-d622-48d6-80b7-40e623d2b9be)
+
 
 # Use grep on "access.log" to find the flag that has a prefix of "THM". What is the flag?
 
