@@ -61,6 +61,9 @@ I used single, double quotes and without them :)
 
   `grep "THM" access.log` will reveal the flag. -> THM{******}
 
+  ![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/2f91f6b7-4b1e-4df3-811a-ac8b84547928)
+
+
 
 # If we wanted to run a command in the background, what operator would we want to use? 
 
