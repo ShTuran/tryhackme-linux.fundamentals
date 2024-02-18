@@ -30,8 +30,10 @@ To edit a file type `nano task3`, this will open nano editor for task3
 
 # Create and download files to further apply your learning -- see how you can read the documentation on Python3's "HTTPServer" module.  Use Ctrl + C to stop the Python3 HTTPServer module once you are finished.
 
+✅
 
 #  If we were to launch a process where the previous ID was "300", what would the ID of this new process be?
+
 
 #  If we wanted to cleanly kill a process, what signal would we send it?
 
