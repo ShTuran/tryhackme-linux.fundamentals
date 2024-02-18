@@ -6,7 +6,7 @@
 
 To edit a file type `nano task3`, this will open nano editor for task3
 
-![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/a6c6575e-e245-4e05-9133-9eb625e6165a)
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/1d827519-bc1e-4d76-a307-307590e252ba)
 
 
 # Ensure you are connected to the deployed instance (10.10.202.248)
