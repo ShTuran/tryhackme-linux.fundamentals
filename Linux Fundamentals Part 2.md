@@ -42,15 +42,17 @@
 
 # What would the command be to switch to the user "user2"? 
 
-
+`su user2`
 
 # Now switch to this user "user2" using the password "user2"
 
-
-
+✅
 
 # Output the contents of "important", what is the flag?
 
+- as above task use `cat` after being user2.
+
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/71f8510e-c626-46ce-b7cd-f870255daa94)
 
 
 #  What is the directory path that would we expect logs to be stored in?
