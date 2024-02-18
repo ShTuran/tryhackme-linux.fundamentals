@@ -1,6 +1,8 @@
 # Create a file using Nano
 
-✅
+- you can create whatever file you wanted
+
+`nano turan`
 
 # Edit "task3" located in "tryhackme"'s home directory using Nano. What is the flag?
 
@@ -11,11 +13,13 @@ To edit a file type `nano task3`, this will open nano editor for task3
 
 # Ensure you are connected to the deployed instance (10.10.202.248)
 
-✅
+- To connect the server use `ssh`
+
+`ssh tryhackme@10.10.202.248` 
 
 #  Now, use Python 3's "HTTPServer" module to start a web server in the home directory of the "tryhackme" user on the deployed instance.
 
-✅
+`python -m http.server`
 
 # Download the file http://10.10.202.248:8000/.flag.txt onto the TryHackMe AttackBox. Remember, you will need to do this in a new terminal. What are the contents?
 
