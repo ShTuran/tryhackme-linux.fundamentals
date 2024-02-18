@@ -35,6 +35,7 @@ To edit a file type `nano task3`, this will open nano editor for task3
 #  If we were to launch a process where the previous ID was "300", what would the ID of this new process be?
 
 
+
 #  If we wanted to cleanly kill a process, what signal would we send it?
 
 #  Locate the process that is running on the deployed instance (10.10.202.248). What flag is given?
