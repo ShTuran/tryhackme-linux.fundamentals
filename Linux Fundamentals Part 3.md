@@ -19,6 +19,8 @@ To edit a file type `nano task3`, this will open nano editor for task3
 
 # Download the file http://10.10.202.248:8000/.flag.txt onto the TryHackMe AttackBox. Remember, you will need to do this in a new terminal. What are the contents?
 
+- Note that above IP address is only specific to the user, you need to change it.
+
 ![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/598abeee-9df1-449c-924e-05ee9d91dbd7)
 
 
