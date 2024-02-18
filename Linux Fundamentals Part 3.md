@@ -11,12 +11,15 @@ To edit a file type `nano task3`, this will open nano editor for task3
 
 # Ensure you are connected to the deployed instance (10.10.202.248)
 
+✅
 
 #  Now, use Python 3's "HTTPServer" module to start a web server in the home directory of the "tryhackme" user on the deployed instance.
 
-
+✅
 
 # Download the file http://10.10.202.248:8000/.flag.txt onto the TryHackMe AttackBox. Remember, you will need to do this in a new terminal. What are the contents?
+
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/598abeee-9df1-449c-924e-05ee9d91dbd7)
 
 
 # Create and download files to further apply your learning -- see how you can read the documentation on Python3's "HTTPServer" module.  Use Ctrl + C to stop the Python3 HTTPServer module once you are finished.
