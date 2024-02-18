@@ -28,6 +28,10 @@
 
 # What are the contents of this file?
 
+- To view content of file use `cat` command
+
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/fbfe1731-0b6a-4d16-beed-58ae8826239c)
+
 
 # On the deployable machine, who is the owner of "important"? 
 
