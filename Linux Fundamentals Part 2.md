@@ -35,6 +35,10 @@
 
 # On the deployable machine, who is the owner of "important"? 
 
+`user2`
+
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/d54be49f-e636-4d0f-9cd6-6b0cdbda052f)
+
 
 # What would the command be to switch to the user "user2"? 
 
