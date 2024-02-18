@@ -14,6 +14,11 @@
 
 # On the deployable machine, what is the file type of "unknown1" in "tryhackme's" home directory? 
 
+`file` command will display the type of file, for example ASCII means it is a text file
+
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/6fda606d-77ff-40c7-a425-792368ba8653)
+
+
 #  How would we move the file "myfile" to the directory "myfolder" 
 
 
