@@ -34,26 +34,40 @@ To edit a file type `nano task3`, this will open nano editor for task3
 
 #  If we were to launch a process where the previous ID was "300", what would the ID of this new process be?
 
-
+- '301' 
 
 #  If we wanted to cleanly kill a process, what signal would we send it?
 
+- 'SIGTERM' 
+
 #  Locate the process that is running on the deployed instance (10.10.202.248). What flag is given?
 
-
-
+- 
 
 # What command would we use to stop the service "myservice"?
 
+-  systemctl stop myservice
+ 
 # What command would we use to start the same service on the boot-up of the system?
+
+- systemctl enable myservice
+
 # What command would we use to bring a previously backgrounded process back to the foreground?
+
+- fg
+
 # When will the crontab on the deployed instance (10.10.202.248) run?
 
-
+- @reboot
+  
 # Look for the apache2 logs on the deployable Linux machine
 
+✅
+  
 # What is the IP address of the user who visited the site?
 
+ '10.9.232.111'
+ 
 # What file did they access?
 
-
+- 'catsanddogs.jpg'
