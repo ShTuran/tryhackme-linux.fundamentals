@@ -18,12 +18,17 @@
 
 # Run tr --help command and tell how will you select any digit character in the string?
 
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/20344590-2b39-43f7-aadb-3b05863bd69f)
+
+`:digit:`
+
 # What sequence is equivalent to [a-zA-Z] set?
+
+`:alpha:` as mentioned above use tr --help command to get the necessary thing.
 
 # What sequence is equivalent to selecting hexadecimal characters?
 
-
-
+`:xdigit:` as mentioned above use tr --help command to get the necessary thing.
 
 # Download the above given file, and use awk command  to print the following output:
 
