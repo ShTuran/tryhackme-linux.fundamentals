@@ -1,19 +1,48 @@
 # Is there a difference between egrep and fgrep? (Yea/Nay)
 
+'Yea'. `egrep` is for extended, complex patterns but  `fgrep` is for fixed string
+
+You can also use `grep -E` for egrep,
+
+`grep -F` for fgrep
+
 # Which flag do you use to list out all the lines NOT containing the 'PATTERN'?
+
+'-v' as tutorial mentioned - "This flag prints all the lines that are NOT containing the pattern"
 
 # Download the above given file and answer the following questions.
 
+✅
 
 # What user did you find in that file?
 
+`cat grep.txt | grep -i "user"`
+
+`cat`  will output the context of 'grep.txt'
+
+`grep` will select the specified word
+
+'-i'  means that ignore case sensitivity
+
 # What is the password of that user?
 
+`cat grep.txt | grep -i "password"`
 
+`cat`  will output the context of 'grep.txt'
+
+`grep` will select the specified word
+
+'-i'  means that ignore case sensitivity
 
 # Can you find the comment that user just left?
 
+`cat grep.txt | grep -i "comment"`
 
+`cat`  will output the context of 'grep.txt'
+
+`grep` will select the specified word
+
+'-i'  means that ignore case sensitivity
 
 
 # Run tr --help command and tell how will you select any digit character in the string?
