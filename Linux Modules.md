@@ -24,6 +24,8 @@ You can also use `grep -E` for egrep,
 
 '-i'  means that ignore case sensitivity
 
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/d4c578ca-60b8-474b-943c-8920ce769470)
+
 # What is the password of that user?
 
 `cat grep.txt | grep -i "password"`
@@ -33,6 +35,7 @@ You can also use `grep -E` for egrep,
 `grep` will select the specified word
 
 '-i'  means that ignore case sensitivity
+
 
 # Can you find the comment that user just left?
 
@@ -61,18 +64,32 @@ You can also use `grep -E` for egrep,
 
 # Download the above given file, and use awk command  to print the following output:
 
-ippsec:34024
+`ippsec:34024
 john:50024
 thecybermentor:25923
 liveoverflow:45345
 nahamsec:12365
-stok:1234
+stok:1234`
+
+- We had 4 field, so the text wanted us to output 1st and 4th field ->  `print{$1,$4}`
+
+
+    BEGIN: This is a special pattern in awk that is executed before processing any input lines. It allows you to set up variables, perform initializations, or define actions that should happen before the main processing begins.
+
+    FS: Stands for "Field Separator." It is used to specify the character or regular expression that separates fields in the input. By default, awk assumes fields are separated by whitespace (spaces or tabs). In this case, FS=" " sets the field separator to a single space, meaning awk will treat consecutive spaces as a single delimiter for fields.
+
+    OFS: Stands for "Output Field Separator." This variable determines how fields are separated in the output. When awk prints its output, it uses OFS to join the fields together. By default, OFS is a space. Here, OFS=":" sets the output field separator to a colon :. So, when awk prints any output, it will separate fields with colons instead of spaces.
+
+As a result, our command will be:
+
+`awk 'BEGIN{FS=" "; OFS=":"}  {print $1,$4}' awk.txt`
+
 
 
 
 # How will you make the output as following (there can be multiple; answer it using the above specified variables in BEGIN pattern):
 
-ippsec, john, thecybermentor, liveoverflow, nahamsec, stok, 
+`ippsec, john, thecybermentor, liveoverflow, nahamsec, stok`
 
 
 
