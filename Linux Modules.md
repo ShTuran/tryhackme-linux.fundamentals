@@ -91,8 +91,26 @@ As a result, our command will be:
 
 `ippsec, john, thecybermentor, liveoverflow, nahamsec, stok`
 
+    BEGIN{ORS=","}:
+        BEGIN is a special pattern in awk that is executed before processing any input lines.
+        ORS stands for "Output Record Separator." It defines the character or string to be printed between records (lines) of output.
+        In this case, ORS="," sets the Output Record Separator to a comma ,. This means that when awk prints the output, it will separate each line with a comma.
+
+    {print $1}:
+        This is the main block of the awk command, executed for each line of the input file.
+        {} denotes the action block.
+        print $1 instructs awk to print the first field ($1) of each input line.
+        $1 refers to the first field of the current input line.
+
+    awk.txt:
+        This is the input file that awk processes.
 
 
+As a result, our command will be:      
+
+'awk 'BEGIN{ORS=","} {print $1}' awk.txt'
+
+![image](https://github.com/ShTuran/tryhackme-linux.fundamentals/assets/111232034/a312309a-ab72-48d1-ad7c-fa68a900231c)
 
 
 # How would you substitute every 3rd occurrence of the word 'hack' to 'back' on every line inside the file file.txt?
