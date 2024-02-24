@@ -194,7 +194,7 @@ As a result, our command will be:
 
 # Write the command to read URLs from "file.txt" and limit the download speed to 1mbps.
 
- -i file.txt: This option tells wget to read the list of URLs to download from the specified file (file.txt). In file.txt, you would typically have a list of URLs, each on a separate line. wget will then proceed to download each URL in the list.
+     -i file.txt: This option tells wget to read the list of URLs to download from the specified file (file.txt). In file.txt, you would typically have a list of URLs, each on a separate line. wget will then proceed to download each URL in the list.
 
     --limit-rate=1m: This option sets the download speed limit. In this case, 1m specifies a limit of 1 megabyte per second. You can adjust this value to limit the download speed to a specific rate.
 
