@@ -115,6 +115,8 @@ As a result, our command will be:
 
 # How would you substitute every 3rd occurrence of the word 'hack' to 'back' on every line inside the file file.txt?
 
+
+
 # How will you do the same operation only on 3rd and 4th line in file.txt?
 
 # Download the given file, and try formatting the trailing spaces in sed1.txt with a colon(:).
