@@ -180,18 +180,37 @@ Use the following flags in ASCII order:
 
 # How will you enable time logging at every new activity that this tool initiates?
 
+`-N` -> Enables timestamping 
+
 # What command will you use to download https://xyz.com/mypackage.zip using wget, appending logs to an existing file named "package-logs.txt"
+
+-a package-logs.txt: This option is used to specify a log file where wget will append its messages. In this case, package-logs.txt is the name of the log file. If the file doesn't exist, wget will create it. If it does exist, wget will append new messages to it without overwriting the existing content.
+
+https://xyz.com/mypackage.zip: This is the URL of the file you want to download. In this example, it's a ZIP file (mypackage.zip) located at https://xyz.com/.
+
+As a result, our command will be:      
+
+`wget -a package-logs.txt https://xyz.com/mypackage.zip `
 
 # Write the command to read URLs from "file.txt" and limit the download speed to 1mbps.
 
+ -i file.txt: This option tells wget to read the list of URLs to download from the specified file (file.txt). In file.txt, you would typically have a list of URLs, each on a separate line. wget will then proceed to download each URL in the list.
 
+    --limit-rate=1m: This option sets the download speed limit. In this case, 1m specifies a limit of 1 megabyte per second. You can adjust this value to limit the download speed to a specific rate.
+
+As a result, our command will be:      
+
+`wget -i file.txt --limit-rate=1m`
 
 
 # How will you seek at 10th byte(in hex) in file.txt and display only 50 bytes?
 
+
 # How to display a n bytes of hexdump in 3 columns with a group of 3 octets per row from file.txt? (Use flags alphabetically)
 
+
 # Which has more precedence over the other -c flag or -g flag?
+
 
 # Download the file and find the value of flag.
 
