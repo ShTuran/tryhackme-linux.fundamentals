@@ -115,31 +115,38 @@ As a result, our command will be:
 
 # How would you substitute every 3rd occurrence of the word 'hack' to 'back' on every line inside the file file.txt?
 
+`sed 's/hack/back/3g' file.txt`
 
 
 # How will you do the same operation only on 3rd and 4th line in file.txt?
 
+`sed '3,4 s/hack/back/3g' file.txt`
+
 # Download the given file, and try formatting the trailing spaces in sed1.txt with a colon(:).
+
+'sed 's/ */:/g' sed1.txt' 
 
 # View the  sed2 file in the directory. Try putting all alphabetical values together, to get the answer for this question.
 
+`sed 's/[[:digit:]]//g' file.txt`
+
+'CONGRATULATIONS YOU MADE IT THROUGH THIS SMALL LITTLE CHALLENGE'
+
 # What pattern did you use to reach that answer string?
+
+‘s/[[:digit:]]//g’
 
 # Alternatively, you can use tr to remove all the digits, and then pipe the output in sed to remove trailing whitespaces.
 
-cat sed2.txt | tr '[:digit:]' ' ' | sed 's/  *//g'
+`cat sed2.txt | tr '[:digit:]' ' ' | sed 's/  *//g'
 
 [Update] Another good way suggested by a room do-er. You can simply use tr -d command to delete all the digits from the file.
 
-cat sed2.txt | tr -d '[:digit:]'
-
-
+cat sed2.txt | tr -d '[:digit:]' `
 
 # What did she sed?(In double quotes)
 
-
-
-
+"That's What"
 
 # You're working in a team and your team leader sent you a list of files that needs to be created ASAP within current directory so that he can fake the synopsis report (that needs to be submitted within a minute or 2) to the invigilator and change the permissions to read-only to only you(Numberic representation). You can find the files list in the "one" folder.
 
@@ -147,6 +154,8 @@ Use the following flags in ASCII order:
 
     Verbose
     Take argument as "files"
+
+`cat file | xargs -I files -t sh -c “touch files; chmod 400 files”`
 
 # Your friend trying to run multiple commands in one line, and wanting to create a short version of rockyou.txt, messed up by creating files instead of redirecting the output into "shortrockyou". Now he messed up his home directory by creating a ton of files. He deleted rockyou wordlist in that one liner and can't seem to download it and do all that long process again.
 
@@ -158,27 +167,39 @@ Use the following flags in ASCII order:
     Verbose
     Max number of arguments should be 1 in for each file
 
-# You can find the files for this task in two folder.
+You can find the files for this task in two folder.
+
+'ls | xargs -I word -n 1 -t sh -c ‘echo word >> shortrockyou; rm word’'
 
 # Which flag to use to specify max number of arguments in one line.
 
+`-n`
+
 # How will you escape command line flags to positional arguments?
 
+`--`
 
 # Download the file given for this task, find the uniq items after sorting the file. What is the 2271st word in the output.
 
+`lollol`
+
+`sort test.test | sed -n 2271p`
+
 # What was the index of term 'michele'
 
-
+`2550`
 
 # Which flag allows you to limit the download/upload rate of a file?
 
+`--limit-rate`
+
 # How will you curl the webpage of https://tryhackme.com/ specifying user-agent as 'juzztesting'
+
+`curl -A 'juzztesting' https://tryhackme.com`
 
 # Can curl perform upload operations?(Yea/Nah)
 
-
-
+`Yea`
 
 # How will you enable time logging at every new activity that this tool initiates?
 
@@ -207,27 +228,32 @@ As a result, our command will be:
 
 # How will you seek at 10th byte(in hex) in file.txt and display only 50 bytes?
 
+`xxd -s 0xa -l 50 -b file.txt`
 
 # How to display a n bytes of hexdump in 3 columns with a group of 3 octets per row from file.txt? (Use flags alphabetically)
 
+`xxd -c 9 -g 3 file.txt`
 
 # Which has more precedence over the other -c flag or -g flag?
 
+'-c'
 
 # Download the file and find the value of flag.
 
-
-
-
+`cat flag.txt | xxd -r -p ` will give the flag
 
 # It's safe to run systemctl command and experiment on your main linux system neither following a proper guide or having any prior knowledge? (Right/Wrong)
 
+`wrong`
 
 # How will you import a given PGP private key. (Suppose the name of the file is key.gpg)
 
+`gpg --import key.gpg`
 
 # How will you list all port activity if netstat is not available on a machine? (Full Name)
 
+`Socket Statistics`
 
 # What command can be used to fix a broken/irregular/weird acting terminal shell?
 
+`reset`
